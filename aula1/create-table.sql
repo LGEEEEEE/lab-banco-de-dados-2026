@@ -1,3 +1,5 @@
+/*Query para criação de uma tabela*/
+
 USE biblioteca_pessoal_1s2026;
 CREATE table Usuario(
 	id_usuario INT AUTO_INCREMENT PRIMARY KEY,
