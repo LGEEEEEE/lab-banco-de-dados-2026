@@ -1,0 +1,4 @@
+/* Atualização do tipo da coluna data_cadastro e inclusão da data_atualizacao */
+ALTER TABLE Usuario 
+MODIFY COLUMN data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN data_atualizacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
